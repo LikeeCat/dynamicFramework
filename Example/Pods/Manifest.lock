@@ -1,0 +1,31 @@
+PODS:
+  - dynamicFramework (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - dynamicFramework (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  dynamicFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dynamicFramework: 9190d1d52ab4c749a505be4a8b6eaf47a6f83dd7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: c91c857f3b49fdb5675577520b84f6be14cb9617
+
+COCOAPODS: 1.11.3
